@@ -19,4 +19,7 @@ You may need an appropriate loader to handle this file type.
 
 try to solve this error
 
+https://captain-eo.hashnode.dev/an-easy-way-to-make-api-calls-redux-toolkit
+
+
  time : 53 min
