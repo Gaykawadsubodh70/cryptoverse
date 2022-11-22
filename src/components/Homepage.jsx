@@ -5,6 +5,7 @@ import millify from 'millify';
 
 
 import { useGetCryptosQuery } from "../services/cryptoApi";
+import { Cryptocurrencies , News} from "../components";
 
 const { Title } = Typography;
 const Homepage = () => {
@@ -60,6 +61,16 @@ const Homepage = () => {
           />
         </Col>
       </Row>
+      <div className="home-heading-container">
+        <Title level={2} className="home-title">Top 10 Crypotocurrencies</Title>
+        <Title level={3} className="home-title"><Link to="/cryptocurrencies">See More</Link></Title>
+      </div>
+      <Cryptocurrencies />
+      <div className="home-heading-container">
+        <Title level={2} className="home-title">Latest Crypto News</Title>
+        <Title level={3} className="home-title"><Link to="/news">See More</Link></Title>
+      </div>
+      <News />
     </>
   );
 };
