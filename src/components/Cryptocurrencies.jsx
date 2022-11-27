@@ -12,6 +12,7 @@ const Cryptocurrencies = ({ simplified }) => {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
+    
     if (cryptoList !== undefined) {
       setresData(cryptoList.data.coins);
 
